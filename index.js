@@ -2,7 +2,7 @@
     var scriptElm = doc.scripts[doc.scripts.length - 1];
     var warn = ['[ionicons] Deprecated script, please remove: ' + scriptElm.outerHTML];
   
-    warn.push('To improve performance it is recommended to set the differential scripts in the head as follows:')
+    warn.push('To improve  its performance it is recommended to set the differential scripts in the head as follows:')
   
     var parts = scriptElm.src.split('/');
     parts.pop();
